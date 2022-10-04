@@ -321,18 +321,18 @@ pre {
 }
 
 #header .header-logo {
-	margin: 16px 0;
-	margin: 1rem 0;
+	/* margin: 16px 0;
+	margin: 1rem 0; */
 	position: relative;
 	z-index: 1;
 }
 
 #header .header-logo img {
-	transition: all 0.3s ease;
+	/* transition: all 0.3s ease;
 	position: relative;
 	top: 0;
 	image-rendering: -webkit-optimize-contrast;
-	transform: translateZ(0);
+	transform: translateZ(0); */
 }
 
 #header .header-nav {
@@ -3940,9 +3940,9 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 }
 
 @media (max-width: 991px) {
-	#header .header-logo img {
+	/* #header .header-logo img {
 		z-index: 1;
-	}
+	} */
 
 	#header .header-nav {
 		display: flex;
